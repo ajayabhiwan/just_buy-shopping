@@ -13,7 +13,7 @@ const allproduct = async(req,res)=>{
 
 /// get categories product data-----
 
-const categoryDataProduct = async(req,res)=>{
+const   categoryDataProduct = async(req,res)=>{
     try {
         const id = req.params.id
         console.log("id----params---",id)
